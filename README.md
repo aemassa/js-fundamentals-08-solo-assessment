@@ -22,7 +22,7 @@ a = b;
 
 After this code executes, what are the values of a and b? Please explain your answer.
 
-<!-- Replace this comment with your answer -->
+The value of a is 3 and the value of b is 3. We set b = 3, and when we ran a = b, the value of a changed to 3.
 
 ## Question 2
 
@@ -34,7 +34,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please explain what the last line of this program `c = c + d;` means.
 
-<!-- Replace this comment with your answer -->
+C = 7.  C = c + d adds c and d (5 and 2) and assigns that value to c.
 
 ## Question 3
 
@@ -47,7 +47,7 @@ y = 10;
 
 After this code executes, what are the values of x and y?  Please explain your answer.
 
-<!-- Replace this comment with your answer -->
+x = 3 and y = 10. When we ran x = y, the value of x was set to 3. When we ran y = 10, the value of y was set to 10.
 
 ## Question 4
 
@@ -59,7 +59,7 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+The expression weather = "sunny" assigns the value of "sunny" to the variable "weather". Weather === "sunny" will return a value of "true."
 
 ## Question 5
 
@@ -71,7 +71,7 @@ if (howMuchILikeSushi >= 3) {
 }
 
 if (x > 0) {
-  console.log("sushi is tasty");  
+  console.log("sushi is tasty");
 }
 ```
 
@@ -79,7 +79,7 @@ Imagine that you take the code from this question, save it to a file called `foo
 
 What would be the output? Explain your answer.
 
-<!-- Replace this comment with your answer -->
+I ran this as-is as a test and received an error that x is not defined. This is what I was expecting, as I was not sure how to involve x in this code. If we define x and set a value to it (for example x =2 or x = howMuchILikeSushi), the output would be "sushi is tasty".
 
 ## Question 6
 
@@ -87,9 +87,9 @@ What would be the output? Explain your answer.
 var howMuchILikeSushi = 2;
 
 if (howMuchILikeSushi > 0) {
-  console.log("sushi is tasty");  
+  console.log("sushi is tasty");
 } else if (x >= 3) {
-  console.log("sushi is delicious");  
+  console.log("sushi is delicious");
 } else {
   console.log("I don't like sushi");
 }
@@ -99,7 +99,7 @@ Imagine that you take the code from this question, save it to a file called `sus
 
 What would be the output? Explain your answer.
 
-<!-- Replace this comment with your answer -->
+The output would be "sushi is tasty" because we set howMuchILikeSushi equal to 2, and 2 is greater than 0.
 
 ## Question 7
 
