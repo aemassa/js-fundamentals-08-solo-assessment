@@ -34,7 +34,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please explain what the last line of this program `c = c + d;` means.
 
-C = 7.  C = c + d adds c and d (5 and 2) and assigns that value to c.
+c = 7.  c = c + d adds c and d (5 and 2) and assigns that value to c.
 
 ## Question 3
 
@@ -59,7 +59,9 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-The expression weather = "sunny" assigns the value of "sunny" to the variable "weather". Weather === "sunny" will return a value of "true."
+var weather evaluates to 'undefined'.
+weather = sunny evaluates to 'sunny'.
+weather === "sunny" evaluates to 'true'.
 
 ## Question 5
 
@@ -79,7 +81,7 @@ Imagine that you take the code from this question, save it to a file called `foo
 
 What would be the output? Explain your answer.
 
-I ran this as-is as a test and received an error that x is not defined. This is what I was expecting, as I was not sure how to involve x in this code. If we define x and set a value to it (for example x =2 or x = howMuchILikeSushi), the output would be "sushi is tasty".
+I ran this as-is as a test and received an error that x is not defined. This is what I was expecting, as we did not define the variable 'x'. If we define x and set a value to it (for example x =2 or x = howMuchILikeSushi), the output would be "sushi is tasty".
 
 ## Question 6
 
@@ -99,7 +101,7 @@ Imagine that you take the code from this question, save it to a file called `sus
 
 What would be the output? Explain your answer.
 
-The output would be "sushi is tasty" because we set howMuchILikeSushi equal to 2, and 2 is greater than 0.
+The output would be "sushi is tasty" because we set howMuchILikeSushi equal to 2, and 2 is greater than 0. x is still undefined.
 
 ## Question 7
 
@@ -118,7 +120,7 @@ Imagine that you take the code from this question, save it to a file called `nam
 
 What would you have to type to exit the while loop?  Explain your answer.
 
-<!-- Replace this comment with your answer -->
+To exit the while loop and stop receiving the "Guess my secret?" message, I would need to either type 'SeCrEt' (capitalizing every other letter), or submit a blank message (by either hitting enter right away without typing anything, or by typing a space and then hitting enter). The loop only executes as long as my answer is not empty or my answer is 'SeCrEt'.
 
 ---
 
